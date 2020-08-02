@@ -1,0 +1,60 @@
+{
+  "_from": "ghost-google-drive",
+  "_id": "ghost-google-drive@2.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-EmJ0LC7+D9MRTDVxODGHlPxhEfJqCfzS7b0s+P1CAo6sfzMkZf1jTriEHD0YS6eun/6/FwSGmf60baf7idqmLA==",
+  "_location": "/ghost-google-drive",
+  "_phantomChildren": {
+    "moment": "2.24.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ghost-google-drive",
+    "name": "ghost-google-drive",
+    "escapedName": "ghost-google-drive",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ghost-google-drive/-/ghost-google-drive-2.0.3.tgz",
+  "_shasum": "b4cd7c549db4275a77090070fa661829dff37ef2",
+  "_spec": "ghost-google-drive",
+  "_where": "/var/www/meetlily-ghost/ghost",
+  "author": {
+    "name": "Robin C Samuel",
+    "email": "hi@robinz.in",
+    "url": "http://robinz.in"
+  },
+  "bugs": {
+    "url": "https://github.com/robincsamuel/ghost-google-drive"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ghost-storage-base": "0.0.3",
+    "googleapis": "^36.0.0"
+  },
+  "deprecated": false,
+  "description": "Google drive store for Ghost blog.",
+  "homepage": "https://github.com/robincsamuel/ghost-google-drive",
+  "keywords": [
+    "Ghost",
+    "google drive",
+    "ghost-store"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ghost-google-drive",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robincsamuel/ghost-google-drive.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.3"
+}
